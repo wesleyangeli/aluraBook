@@ -61,7 +61,7 @@
 
 .descricao__texto {
   font-size: 14px;
-  padding-right: 1.2em;
+  padding-right: 0.6em;
 }
 
 .botoes__ancora {
@@ -70,4 +70,8 @@
   color: var(--branco);
   font-weight: 700;
   text-decoration: none;
+}
+.descricao__imagem {
+  padding: 0.2em;
+  height: 100%;
 }
