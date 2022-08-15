@@ -8,6 +8,7 @@
   --laranja: #eb9800;
   --azul-degrade: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
   --fonte-principal: "Poppins";
+  --azul: #002f52;
 }
 
 body {
@@ -15,4 +16,5 @@ body {
   font-family: var(--fonte-principal);
   font-size: 16px;
   font-weight: 400;
+  line-height: 1.4em;
 }
