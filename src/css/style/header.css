@@ -96,4 +96,7 @@
   .container__imagem--favorito {
     display: none;
   }
+  .cabecalho__menu-hamburguer {
+    display: none;
+  }
 }
