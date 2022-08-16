@@ -29,9 +29,30 @@
 }
 
 .contato__email::placeholder {
-  background: url(../../images/Email.svg);
+  background: url("../../images/Email.svg");
   background-repeat: no-repeat;
   font-family: var(--fonte-principal);
   color: var(--azul);
   padding-left: 2.2em;
+}
+
+@media screen and (min-width: 1024px) {
+  .contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contato__descricao {
+    width: 50%;
+    margin: 0 10%;
+  }
+
+  .contato__email {
+    width: 40%;
+    margin: 0 5%;
+  }
+  .contato__titulo {
+    font-size: 24px;
+  }
 }

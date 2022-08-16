@@ -22,7 +22,7 @@
       href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
     />
     <link rel="stylesheet" href="./src/css/style.css" />
-    <title>Alura Book</title>
+    <title>Página em desenvolvimento</title>
   </head>
   <body>
     <header class="cabecalho">
@@ -130,6 +130,8 @@
       <h2 class="carrossel__titulo">ultimos lançamentos</h2>
       <div class="swiper">
         <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
           <!-- Slides -->
@@ -190,6 +192,10 @@
       <h2 class="carrossel__titulo">MAIS VENDIDOS</h2>
       <div class="swiper">
         <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
           <!-- Slides -->
@@ -276,10 +282,12 @@
       </ul>
     </section>
     <section class="contato">
-      <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
-      <p class="contato__texto">
-        Atualizações de e-books, novos livros, promoções e outros.
-      </p>
+      <div class="contato__descricao">
+        <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+        <p class="contato__texto">
+          Atualizações de e-books, novos livros, promoções e outros.
+        </p>
+      </div>
       <input
         class="contato__email"
         type="email"
@@ -293,11 +301,15 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script>
       const swiper = new Swiper(".swiper", {
-        spaceBetween: 10,
+        spaceBetween: 20,
         slidesPerView: 3,
         pagination: {
           el: ".swiper-pagination",
           type: "bullets",
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
         },
       });
     </script>
