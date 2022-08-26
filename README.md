@@ -41,6 +41,6 @@ Na área da programação, a documentação é essencial para que você possa co
 
 ### Projeto feito durante o curso de responsividade da Alura, focado em Mobile First.
 
-**Firgma do projeto:** [AluraBook](https://www.figma.com/file/sSMbIqKaGBd66Y8roxTk2p/AluraBooks?node-id=113%3A1553) 
+**Figma do projeto:** [AluraBook](https://www.figma.com/file/sSMbIqKaGBd66Y8roxTk2p/AluraBooks?node-id=113%3A1553) 
 
 **Página pronta:** [Minha página](https://wesleyangeli.github.io/aluraBook/) :D
